@@ -15,7 +15,7 @@ Como ejercicio adicional y completamente opcional, al terminar de resolver este 
 */
 
 function nFactorial(n) { 
-  if(n === 0) {
+  if(n < 1) {
     return 1
   }
   else {

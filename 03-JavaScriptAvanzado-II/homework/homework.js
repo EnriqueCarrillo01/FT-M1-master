@@ -19,10 +19,10 @@ function counter() {
   otroContador()      // 2
   otroContador()      // 3
    */
-  var b = 0;
-  return function a() {
-    return b = b + 1
-  }
+  let b = 1;
+  return () => 
+   b++
+  
 }
 
 function cacheFunction(cb) {
